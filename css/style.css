@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: "york";
+    src: url('../polices/york/york.ttf');
+}
+body {
+     background-image: url("../pics/Bois.jpg");
+}
+header {
+     background-color: grey;
+}
+
+/*-------------------NARVBAR-------------------*/
+.navbar-toggle {
+  margin-top: 15px;
+}
+.icon-bar {
+     background-color: white;
+}
+.titleMobile {
+    position: relative;
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    font-family: york;
+    font-size: 1.8em;
+}
+.navbar-nav a {
+     color: white;
+}
+.glyphicon-cutlery,
+.glyphicon-envelope,
+.glyphicon-home,
+.fa-futbol-o {
+     visibility: hidden;
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+/*-------------------MEDIA-------------------*/
+@media (max-width: 768px) {
+     .glyphicon-cutlery,
+     .glyphicon-envelope,
+     .glyphicon-home,
+     .fa-futbol-o {
+          visibility: visible;
+     }
+}
