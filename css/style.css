@@ -7,9 +7,9 @@ body {
      background-image: url("../pics/Bois.jpg");
 }
 header {
-     background-color: grey;
+     /* background-color: rgb(11, 58, 13); */
+     background-color: #419641;
 }
-
 /*-------------------NARVBAR-------------------*/
 .navbar-toggle {
   margin-top: 15px;
@@ -35,13 +35,39 @@ header {
 .fa-futbol-o {
      visibility: hidden;
 }
-.navbar-nav {
-  width: 100%;
-  text-align: center;
-  > li {
-    float: none;
+.menutitre {
+     font-family: bira;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent;
+}
+.COORDONNÉES {
+    background-color: black;
+}
+.COORDONNÉES li{
     display: inline-block;
-  }
+    width: 250px;
+}
+.divCoord {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttonLocalisation {
+    width: 50px;
+}
+.CAROUSEL {
+    margin-bottom: 5%;
+}
+.navbar-nav {
+     width: 100%;
+     text-align: center;
+     padding-left: 11%;
+     padding-right: 11%
+     > li {
+          float: none;
+          display: inline-block;
+     }
 }
 /*-------------------MEDIA-------------------*/
 @media (max-width: 768px) {
@@ -51,4 +77,20 @@ header {
      .fa-futbol-o {
           visibility: visible;
      }
+}
+@media (min-width: 768px) {
+     .navbar-nav>li>a {
+          font-size: 190%;
+     }
+    .titleMobile{
+         display: none;
+    }
+    .textnav{
+         padding-top: 45px;
+    }
+}
+@media (max-width: 768px) {
+    .logonav {
+        visibility: hidden;
+     }/*disparition logo toggle en petit ecran*/
 }

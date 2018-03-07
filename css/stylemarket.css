@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "bira";
+    src: url('../police/bira/bira.ttf');
+}
+body {
+     background-image: url("../img/Bois.jpg");
+     color: white;
+}
+.exceptio{
+	font-size: 150%;
+}
+.TOP {
+     font-size:150%
+}
+h2{
+	font-family: bira;
+}
+.cadrebouffe {
+	color: black;
+	padding: 0;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 15px;
+}
+.foodpart {
+	 margin-bottom: 5%;
+	 margin-top: 12px;
+	 text-align: center;
+}
+.btn {
+	width: 250px;
+	margin: auto;
+	display: block;
+}
+.buttonSport {
+	margin-bottom: 15px;
+}
+.sportText {
+	padding: 5px;
+	background-color: #d9534f;
+	border-radius: 15px;
+	background-image: linear-gr2adient(to bottom,#d9534f 0,#c12e2a 100%);
+}
+.btnCarte {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.foodpart2 {
+	 text-align: center;
+	 margin-top: 12px;
+	 margin-bottom: 5%
+}
+.sportpart1 {
+     text-align: center;
+	 border: 3px solid black;
+	 border-radius: 12px;
+	 margin-top: 12px;
+	 margin-bottom: 5%
+}
+.sportpart2 {
+	 text-align: center;
+	 border: 3px solid black;
+	 border-radius: 12px;
+	 margin-top: 12px;
+	 margin-bottom: 5%
+}
+.boutonCollapseSport {
+     text-align: center;
+}
+@media (max-width: 768px) {
+     .navbar-default .navbar-text{
+          visibility: hidden;
+     }
+}

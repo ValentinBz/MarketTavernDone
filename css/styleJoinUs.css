@@ -1,0 +1,33 @@
+.joinUs {
+     text-align: center;
+}
+.SN {
+     text-align: center;
+}
+.SNicon {
+     font-size: 75px;
+     margin-top: 10px;
+}
+.SNicon:focus, .SNicon:hover {
+     text-decoration: none;
+     cursor: pointer;
+}
+.fa-facebook {
+     color: #55ACEE;
+}
+.fa-twitter {
+     color: #55ACEE;
+}
+.fa-instagram {
+     color: #55ACEE;
+}
+.fa-tumblr {
+     color: #55ACEE;
+}
+.fa {
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}

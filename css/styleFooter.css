@@ -1,0 +1,25 @@
+.Picon {
+     font-size: 60px;
+     margin-top: 10px;
+     color: #55ACEE;
+}
+.PA {
+     text-align: center;
+}
+.Picon:focus, .Picon:hover {
+     text-decoration: none;
+     cursor: pointer;
+}
+.paymentTitle {
+     text-align: center;
+}
+footer {
+     background-color: black;
+}
+.simple-svg {
+     background-color: white;
+     color: white;
+}
+.Picon:focus, .Picon:hover {
+     cursor: default;
+}

@@ -1,0 +1,17 @@
+.eventText {
+     font-size: 3vw;
+     text-align: center;
+}
+.img-event {
+     margin: auto;
+}
+.contactDiv {
+     text-align: center;
+     margin-bottom: 30px;
+}
+.divTEXT {
+     margin-top: 12%;
+}
+hr {
+     border-top: 1px solid #008000;
+}
