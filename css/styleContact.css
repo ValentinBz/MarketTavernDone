@@ -1,9 +1,17 @@
 select {
      color: black;
+     width: 250px;
 }
 input {
-     width: 275px;
+     width: 250px;
+     color: black;
+     padding: 0;
 }
-select {
-     width: 275px;
+textarea {
+     color: black;
+}
+.divButContact {
+     display: block;
+     margin: auto;
+     margin-bottom: 15px;
 }

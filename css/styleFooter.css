@@ -15,6 +15,7 @@
 }
 footer {
      background-color: black;
+     margin-bottom: 0;
 }
 .simple-svg {
      background-color: white;
@@ -22,4 +23,8 @@ footer {
 }
 .Picon:focus, .Picon:hover {
      cursor: default;
+}
+.divCoord2 {
+    text-align: center;
+    margin-top: 10px;
 }

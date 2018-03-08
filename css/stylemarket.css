@@ -82,7 +82,7 @@ h2{
      }
 }
 @media (max-width: 992px) {
-     .rugby2 .rugby3{
+     #rugby3, #rugby2{
           display: none;
      }
 }
