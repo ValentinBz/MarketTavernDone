@@ -2,7 +2,7 @@
     font-family: "bira";
     src: url('../police/bira/bira.ttf');
 }
-body {
+#body {
      background-image: url("../img/Bois.jpg");
      color: white;
 }
@@ -12,7 +12,8 @@ body {
 .TOP {
      font-size:150%
 }
-h2{
+.titrepartfood,
+.titrepartsport {
 	font-family: bira;
 }
 .cadrebouffe {
@@ -46,7 +47,7 @@ h2{
 	padding: 5px;
 	background-color: #d9534f;
 	border-radius: 15px;
-	background-image: linear-gr2adient(to bottom,#d9534f 0,#c12e2a 100%);
+	background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
 }
 .btnCarte {
 	color: white;
